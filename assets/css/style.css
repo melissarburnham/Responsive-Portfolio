@@ -192,7 +192,7 @@ input[type=submit] {
 	clear: both;
 	margin-top: 80px;
 }
-/*
+
 @media screen and (max-width: 980px) {
 
   
@@ -202,15 +202,49 @@ input[type=submit] {
   
 }
 @media screen and (max-width: 640px) {
- 
-p #me .mainsection .headersection .nav .connect .pagetitle .linebreak{
+
+.container, p, #me, .mainsection, .headersection, .nav, .connect, .pagetitle, .linebreak, .navigation, #headername  {
+	clear: both;
 	float: none;
 	width: auto;
-	margin-right: 0;
 }
 
-img {
-
+.mainsection, .connect {
+	margin: 5px 5px 5px 5px;
 }
 
-}*/
+/*index*/
+
+.navigation  {
+	font-size: 30px;
+	text-align: center;
+}
+
+.headersection {
+	width: auto;
+}
+
+.navigation {
+	margin: 5px 0 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
