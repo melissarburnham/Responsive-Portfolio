@@ -198,7 +198,37 @@ input[type=submit] {
   
 }
 @media screen and (max-width: 768px) {
- 
+
+.container, #me, .mainsection, .connect, .pagetitle, .linebreak {
+	clear: both;
+	float: none;
+	width: auto;
+}
+
+.mainsection, .connect {
+	margin: 5px 5px 5px 5px;
+}
+
+.navigation  {
+	font-size: 15px;
+	text-align: center;
+	margin: 5px 0 5px 0;
+}
+ #me {
+ 	float: left;
+ }
+
+#headername {
+	width: 50%;
+}
+
+.navigation {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+	margin-right:30px;
+}
+
   
 }
 @media screen and (max-width: 640px) {
@@ -213,19 +243,14 @@ input[type=submit] {
 	margin: 5px 5px 5px 5px;
 }
 
-/*index*/
-
 .navigation  {
 	font-size: 30px;
 	text-align: center;
+	margin: 5px 0 5px 0;
 }
 
 .headersection {
 	width: auto;
-}
-
-.navigation {
-	margin: 5px 0 5px 0;
 }
 
 
