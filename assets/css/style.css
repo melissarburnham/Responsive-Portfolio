@@ -195,8 +195,38 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
+.container, #me, .pagetitle, .linebreak {
+	clear: both;
+	float: none;
+	width: auto;
+}	
+
+#headername {
+	width: 50%;
+}
+
+.navigation {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+	margin-right:30px;
+}
+
+.mainsection {
+	width: 50%;
+	float: left;
+	margin-left: 100px;
+	margin-right: 5px;
+}
+
+.connect {
+	width: 33%;
+	float: left;
+	margin-left: 5px;
+}
   
 }
+
 @media screen and (max-width: 768px) {
 
 .container, #me, .mainsection, .connect, .pagetitle, .linebreak {
@@ -209,11 +239,6 @@ input[type=submit] {
 	margin: 5px 5px 5px 5px;
 }
 
-.navigation  {
-	font-size: 15px;
-	text-align: center;
-	margin: 5px 0 5px 0;
-}
  #me {
  	float: left;
  }
