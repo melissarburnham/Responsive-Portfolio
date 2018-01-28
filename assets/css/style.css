@@ -140,10 +140,6 @@ input[type=submit] {
 
 }
 
-.work:nth-child(even) {
-  margin-right: 40px;
-}
-
 .work img {
   width: 100%;
   border: 0 none;
@@ -188,7 +184,7 @@ input[type=submit] {
 	bottom: 0;
 	border-top: 4px solid #4aaaa5;
 	padding-top: 25px;
-	position: relative;
+	position: fixed;
 	clear: both;
 	margin-top: 80px;
 }
@@ -224,6 +220,12 @@ input[type=submit] {
 	float: left;
 	margin-left: 5px;
 }
+
+.work {
+	float: right;
+	display: block;
+	margin-right: 40px;
+}
   
 }
 
@@ -254,11 +256,30 @@ input[type=submit] {
 	margin-right:30px;
 }
 
+.work { 
+	float: left;
+}
+
+.mainsection {
+	width: 100%;
+	max-width: 725px;
+}
+
+.mainsection:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.connect {
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
   
 }
 @media screen and (max-width: 640px) {
 
-.container, p, #me, .mainsection, .headersection, .nav, .connect, .pagetitle, .linebreak, .navigation, #headername  {
+.container, p, .mainsection, .headersection, .nav, .connect, .pagetitle, .linebreak, .navigation, #headername  {
 	clear: both;
 	float: none;
 	width: auto;
@@ -277,6 +298,24 @@ input[type=submit] {
 .headersection {
 	width: auto;
 }
+
+.work { 
+	float: none;
+	margin: 0 auto;
+ }
+
+#me {
+	width: 100%
+}
+
+p {
+	text-align: center;
+}
+
+.connect {
+	margin-bottom: 90px;
+}
+
 
 
 
