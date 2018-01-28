@@ -191,7 +191,10 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
-.container, #me, .pagetitle, .linebreak {
+.container, 
+#me, 
+.pagetitle,
+ .linebreak {
 	clear: both;
 	float: none;
 	width: auto;
@@ -231,7 +234,12 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
 
-.container, #me, .mainsection, .connect, .pagetitle, .linebreak {
+.container, 
+#me, 
+.mainsection, 
+.connect, 
+.pagetitle, 
+.linebreak {
 	clear: both;
 	float: none;
 	width: auto;
@@ -279,7 +287,16 @@ input[type=submit] {
 }
 @media screen and (max-width: 640px) {
 
-.container, p, .mainsection, .headersection, .nav, .connect, .pagetitle, .linebreak, .navigation, #headername  {
+.container, 
+p, 
+.mainsection, 
+.headersection, 
+.nav, 
+.connect, 
+.pagetitle, 
+.linebreak, 
+.navigation, 
+#headername  {
 	clear: both;
 	float: none;
 	width: auto;
