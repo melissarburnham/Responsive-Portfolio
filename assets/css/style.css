@@ -52,9 +52,11 @@ ul {
 	list-style-type: none;
 	float: right;
 }
+
  li {
 	display: inline;
  }
+
 .mainsection {
 	background-color: #ffffff;
 	width: 650px;
@@ -332,25 +334,4 @@ p {
 .connect {
 	margin-bottom: 90px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
